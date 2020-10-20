@@ -45,7 +45,7 @@ app.use('/', require('./routes/manager'));
 app.use('/posts', require('./routes/posts'));
 
 // Port setting
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 5000;
 app.listen(port, function(){ 
     console.log('server on! http://localhost:'+port);
 });
